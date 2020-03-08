@@ -1,0 +1,147 @@
+.my-nav {
+  width: 100%;
+  position: relative;
+  top: 0;
+  background-color: teal;
+  color: grey;
+  margin-bottom: 2px;
+  display: block;
+  padding: 10px;
+}
+.navbar-toggler {
+  color: white;
+}
+
+.container-fluid {
+  padding: 0;
+}
+.my-nav a {
+  color: white;
+}
+
+/* .clearfix:after {
+    content: ".page";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;     
+} */
+
+.page {
+  position: relative;
+  display: block;
+  padding: 20px;
+}
+.page a {
+  color: teal;
+}
+
+.carousel img {
+  max-width: 100%;
+  height: auto;
+}
+
+#carouselExampleIndicators {
+  margin-top: 0 !important;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  background-color: teal;
+  border: none;
+  padding: 20px;
+}
+
+.footer i {
+  cursor: pointer;
+  margin: 6px;
+}
+
+.footer i:hover {
+  zoom: 1;
+  color: skyblue;
+}
+
+.f1 {
+  flex: 1;
+}
+.f2 {
+  flex: 1;
+}
+.f3 {
+  flex: 1;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  background-color: teal;
+}
+
+.t1 {
+  flex: 1;
+}
+.t2 {
+  flex: 1;
+}
+.t3 {
+  flex: 1;
+}
+.t1 p {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6px;
+
+  cursor: pointer;
+  max-width: max-content;
+}
+
+.t2 p {
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6px;
+
+  cursor: pointer;
+  max-width: max-content;
+}
+
+.t3 p {
+  color: white;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6px;
+
+  max-width: max-content;
+}
+.f1 p:hover {
+  color: cadetblue;
+}
+.f2 p:hover {
+  color: cadetblue;
+}
+.f3 p:hover {
+  color: cadetblue;
+}
+
+.copyright {
+  background-color: teal;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .carousel {
+    display: none;
+  }
+}
