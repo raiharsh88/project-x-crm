@@ -14,6 +14,7 @@ $("[type = submit]").click(function () {
       } else if (data.msg == "unauthorized") {
         $("#emai").val("");
         $("#password").val("");
+
         alert("Wrong email or password");
       }
     })

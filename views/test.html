@@ -18,13 +18,13 @@
     <ul class="navbar-nav">
       <div class="center-buttons">
         <li class="nav-item">
-          <a class="nav-link" id = 'add-reminder' href="#"
+          <a class="nav-link" href="#"
             >ADD <span class="sr-only">(current)</span></a
           >
         </li>
 
         <li class="nav-item">
-          <a class="nav-link " href="#"
+          <a class="nav-link" href="#"
             >History <span class="sr-only">(current)</span></a
           >
         </li>
@@ -67,8 +67,8 @@
 </div>
 {{!-- /Reminders --}}
 
-<div class="reminder-form-wrapper hidden">
-  <div class="reminder-form" style="display: block; margin-left:auto ;margin-right:auto;">
+<div class="reminder-form-wrapper">
+  <div class="reminder-form">
     <div class="row">
       <div class="col-col-lg-6 col-md-6 col-sm-12 col-12">
         <div class="common-input">
@@ -152,22 +152,7 @@
         </select>
       </div>
     </div>
- <div class="row">
-      <div class="col-col-lg-6 col-md-6 col-sm-12 col-12">
-        <div class="common-input">
-          <input
-            type="text"
-            class="form-control"
-            id="form-email"
-            placeholder="something@something.com"
-            tabindex="1"
-            required
-          />
-          <label for="name" class="form-label">EMail</label>
-        </div>
-      </div>
-    
-    </div>
+
     <div class="row">
       <div class="col-col-12">
         <div class="state-selector">
@@ -178,21 +163,6 @@
           </label>
         </div>
       </div>
-    </div>
-
-
-    <div class="row form-footer">
-      <div class="col col-lg-6 col-md-6 col-sm-12 col-12">
-        <div class="common-input">
-            <button class="btn btn-lg btn-outline-dark" id="save-reminder">Save</button>        
-
-        </div>
-         <div class="common-input">
-            <button class="btn btn-lg btn-outline-dark" id="cancel-reminder">Cancel</button>        
-
-        </div>
-      </div>
-     
     </div>
   </div>
 </div>

@@ -65,6 +65,8 @@ app.set("view engine", ".hbs");
 app.use("/api", apiRouter); // Router for API
 app.use("/users", users); //Router for users
 
+//Routes
+
 app.get("/register", (req, res) => {
   res.render("register", {
     text: "hello world",
@@ -78,7 +80,7 @@ app.get("/login", (req, res) => {
 });
 
 app.get("/home", checkAuthenticated, (req, res) => {
-  res.render("home");
+  res.render("dashboard");
 });
 
 app.get("/product", (req, res) => {
@@ -87,6 +89,7 @@ app.get("/product", (req, res) => {
   });
 });
 
+// Routes
 function checkAuthenticated(req, res, next) {
   if (req.isAuthenticated()) {
     return next();

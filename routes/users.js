@@ -35,11 +35,9 @@ users.post("/register", async (req, res) => {
   );
 });
 
-users.post("/login", async (req, res, next) => {
+users.post("/login", (req, res, next) => {
   const user = req.body;
   passport.authenticate("local", (err, user, info) => {
-    console.log(err, user, info);
-
     if (user) {
       req.logIn(user, function (err) {
         if (err) {
@@ -50,14 +48,17 @@ users.post("/login", async (req, res, next) => {
     } else if (!user) {
       return res.json({ msg: "unauthorized", url: "/login" });
     }
-    res.json({ msg: "Something went wrong", url: "/login" });
+
+    if (err) res.json({ msg: "Something went wrong", url: "/login" });
   })(req, res, next);
 });
 
-users.post("/test", (req, res) => {
-  console.log("This is the user", req.session);
-  console.log(req.user);
+users.post("/logout", (req, res) => {
+  req.logout();
+  res.redirect("/login");
+});
 
+users.post("/test", (req, res) => {
   res.json({ test: "this is a test" });
 });
 module.exports = users;

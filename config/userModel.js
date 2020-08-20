@@ -9,6 +9,17 @@ const userSchema = new Schema({
   phone: String,
 });
 
+const reminderSchema = new Schema({
+  receiver: String,
+  email: String,
+  address: String,
+  phone: String,
+  medicine: String,
+  mode: String,
+  interval: Number,
+  status: Boolean,
+});
 const userModel = new mongoose.model("users", userSchema);
+const reminderModel = new mongoose.model("reminders", reminderSchema);
 
 module.exports = { userModel };

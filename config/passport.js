@@ -12,9 +12,6 @@ const initialize = function (passport) {
 
     try {
       if (await bcrypt.compare(password, user.password)) {
-        console.log("right pass");
-        console.log("user id is", user.id);
-
         done(null, user);
       } else {
         console.log("wrong pass");
