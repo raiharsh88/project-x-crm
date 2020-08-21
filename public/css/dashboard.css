@@ -56,7 +56,8 @@
 
   margin-top: 3rem;
   margin-bottom: 2rem;
-  box-shadow: 0 0 10px 0px rgb(209, 208, 208);
+  /* box-shadow: 0 0 10px 0px rgb(209, 208, 208); */
+  border: 0.5px solid rgb(163, 163, 163);
 }
 
 .reminder {
