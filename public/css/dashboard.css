@@ -56,7 +56,7 @@
 
   margin-top: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 0 20px 1px rgb(233, 233, 233);
+  box-shadow: 0 0 20px 1px rgb(243, 240, 240);
 }
 
 .reminder {
@@ -69,10 +69,27 @@
 .reminder-props {
   margin-left: 10px;
   margin-right: 10px;
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.status {
+  flex: 0.5;
 }
 
 .reminder > .edit-btn {
   float: right;
+  flex: 2;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reminder > .edit-btn:hover {
+  cursor: pointer;
 }
 
 .reminder > .status {

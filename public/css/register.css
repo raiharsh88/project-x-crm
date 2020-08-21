@@ -43,7 +43,7 @@
 
 .form-content input[type="text"],
 input[type="password"] {
-  outline: teal !important;
+  outline: rgb(10, 10, 10) !important;
 
   width: 85%;
   display: inline-block;
@@ -51,13 +51,13 @@ input[type="password"] {
   margin: 20px;
   text-align: center;
   background-color: #f6f6f6;
-  border: 0.5px solid teal;
+  border: 0.5px solid rgb(10, 10, 10);
   color: #0d0d0d;
   padding: 15px 80px;
   font-size: 16px;
 }
 .form-content input[type="submit"] {
-  background-color: teal;
+  background-color: rgb(10, 10, 10);
   border: none;
   color: white;
   padding: 15px 80px;
@@ -76,7 +76,7 @@ input[type="password"] {
 .wrapper a {
   font-size: 18px;
   padding: 2px;
-  color: teal;
+  color: rgb(10, 10, 10);
   margin: 0 20px 20px 20px;
 }
 

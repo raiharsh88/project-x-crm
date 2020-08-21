@@ -3,13 +3,13 @@ $(document).ready();
 $("[type = submit]").click(function () {
   console.log("hello");
 
-  let x = {
-    name: $("#name").val("Harsh Rai"),
-    email: $("#email").val("raiharsh2230@gmail.com"),
-    phone: $("#number").val("7977170346"),
-    password: $("#password").val("passcode@95"),
-    confirmPassword: $("#confirm-password").val("passcode@95"),
-  };
+  // let x = {
+  //   name: $("#name").val("Harsh Rai"),
+  //   email: $("#email").val("raiharsh2230@gmail.com"),
+  //   phone: $("#number").val("7977170346"),
+  //   password: $("#password").val("passcode@95"),
+  //   confirmPassword: $("#confirm-password").val("passcode@95"),
+  // };
   const regForm = {
     name: $("#name").val(),
     email: $("#email").val(),

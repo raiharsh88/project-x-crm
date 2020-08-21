@@ -48,24 +48,13 @@
 </nav>
 
 {{!-- /Navbar --}} {{!-- Reminders --}}
-<div class="container-fluid">
-  <div class="reminder-container">
-    <div class="row h-100">
-      <div class="col col-lg-12 col-md-12 col-sm-12 reminder h-100">
-        <div class="reminder-props name">Harsh Rai</div>
-        <div class="reminder-props medicine">Crocin , Cefolac , Rantac</div>
-        <div class="reminder-props interval">10 Days</div>
-        <div class="reminder-props channel">SMS</div>
-        <div class="reminder-props status">Active</div>
-
-        <div class="reminder-props edit-btn">
-          <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
-        </div>
-      </div>
-    </div>
-  </div>
+<div class="container-fluid " id="rem-canvas">
+  
 </div>
 {{!-- /Reminders --}}
+
+
+
 
 <div class="reminder-form-wrapper hidden">
   <div class="reminder-form" style="display: block; margin-left:auto ;margin-right:auto;">
@@ -143,12 +132,12 @@
       </div>
       <div class="col-col-lg-6 col-md-6 col-sm-12 col-12">
         <select class="select form-control">
-          <option>WhatsApp</option>
-          <option>SMS</option>
-          <option>Email</option>
-          <option>Self</option>
+          <option value = "0">WhatsApp</option>
+          <option value = "1">SMS</option>
+          <option value = "2">Email</option>
+          <option value = "3" >Self</option>
 
-          <option selected>Mode</option>
+          <option >Mode</option>
         </select>
       </div>
     </div>
@@ -240,6 +229,27 @@
     </div>
   </div>
 </div>
+
+
+<div class="rem-store hidden">
+    <div class="reminder-container">
+    <div class="row h-100">
+      <div class="col col-lg-12 col-md-12 col-sm-12 reminder h-100">
+        <div class="reminder-props name">Harsh Rai</div>
+        <div class="reminder-props medicine">Crocin , Cefolac , Rantac</div>
+        <div class="reminder-props interval">10 Days</div>
+        <div class="reminder-props mode">SMS</div>
+        <div class="reminder-props status">Active</div>
+
+        <div class=" edit-btn combtn">
+          <i class="fa fa-pencil fa-2x" aria-hidden="true"></i>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <script src="js/dashboard.js"></script>
 <link rel="stylesheet" href="css/dashboard.css" />
