@@ -29,7 +29,9 @@ $("[type = submit]").click(function () {
   $.post("/users/register", regForm)
     .done(function (data) {
       alert(data.msg);
-      // window.location.replace(data.url);
+      if (data.status == 200) {
+        window.location.replace(data.url);
+      }
     })
     .fail(function (error) {
       alert("something went wrong!");

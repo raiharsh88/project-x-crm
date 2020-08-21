@@ -29,7 +29,11 @@ users.post("/register", async (req, res) => {
 
         await newUser.save();
         req.session.cookie;
-        res.json({ msg: "Successfully registered!", url: "/login" });
+        res.json({
+          msg: "Successfully registered!",
+          url: "/login",
+          status: 200,
+        });
       }
     }
   );

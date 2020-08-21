@@ -54,9 +54,9 @@
 .reminder-container {
   height: 70px;
 
-  margin-top: 2rem;
+  margin-top: 3rem;
   margin-bottom: 2rem;
-  box-shadow: 0 0 20px 1px rgb(243, 240, 240);
+  box-shadow: 0 0 10px 0px rgb(209, 208, 208);
 }
 
 .reminder {
