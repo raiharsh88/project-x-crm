@@ -8,6 +8,9 @@ SignUp is staright forward Just go to the [Register](http://project-x-crm.heroku
 
 Signup does not requires any Otp verification as the app is just a test project.
 
+![Registration Page](relative/path/to/img.jpg?raw=true "Register")
+
+
 Once signed up login using the credentials [Login](http://project-x-crm.herokuapp.com/register).
 
 You can start adding the Medicines and reminders right away. 
@@ -41,7 +44,10 @@ Mongo DB Atlas
 
 Heroku
 
-## Feel free to use every piece of code here.
+Feel free to use every piece of code here. Everything is open source.
+
+
+
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
