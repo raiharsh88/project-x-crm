@@ -8,6 +8,9 @@ SignUp is staright forward Just go to the [Register](http://project-x-crm.heroku
 
 Signup does not requires any Otp verification as the app is just a test project.
 
+![Register](./register.png?raw=true "Title")
+
+
 Once signed up login using the credentials [Login](http://project-x-crm.herokuapp.com/register).
 
 You can start adding the Medicines and reminders right away. 
