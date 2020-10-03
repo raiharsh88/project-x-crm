@@ -33,15 +33,21 @@ I have  diabled notifications due to API's costs.
 # Modes of reminders (disabled for now)
 
 1.WhatsApp
-2.SMS 
+
+2.SMS
+
 3.Email 
 
 # Frontend tech stack 
  
 HTML5 
+
 CSS3
+
 Bootstrap
+
 JavaScript
+
 JQuery
 
 # Backend tech stack 
