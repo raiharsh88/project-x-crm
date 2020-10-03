@@ -40,8 +40,7 @@ Mongo DB Atlas
 ## Hosting 
 
 Heroku
-
-## Feel free to use every piece of code here.
+Feel free to use every piece of code here.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
